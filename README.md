@@ -63,6 +63,11 @@ git config --global user.email <Email ID>
 git config --global user.name "<Full Name>"
 ```
 
+## py3
+```sh
+sudo apt install -y python3-pip
+```
+
 ## awscli
 ```sh
 pip3 install awscli --upgrade --user
@@ -74,11 +79,6 @@ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash - && \
 sudo apt-get install -y nodejs
 ```
 
-## py3
-```sh
-sudo apt install -y python3-pip
-```
-
 ## go
 ```sh
 sudo add-apt-repository ppa:longsleep/golang-backports && \
@@ -86,11 +86,9 @@ sudo apt-get update -y && \
 sudo apt-get install -y golang-go
 ```
 
-## jq
+## jq / build essential
 ```sh
-sudo apt-get -y install \
-     build-essential \
-     jq \
+sudo apt-get -y install build-essential jq
 ```
 
 ## gcloud
