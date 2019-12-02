@@ -71,6 +71,7 @@ sudo apt install -y python3-pip
 ## awscli
 ```sh
 pip3 install awscli --upgrade --user
+export PATH=/home/[user]/.local/bin:$PATH
 ```
 
 ##  node
